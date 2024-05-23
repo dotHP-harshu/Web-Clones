@@ -76,7 +76,38 @@ nav ul {
 }
 nav ul li {
   list-style-type: none;
+  position: relative;
 }
+nav ul li:hover ul {
+  display: flex;
+}
+nav ul li > ul {
+  display: none;
+  position: absolute;
+  top: 90%;
+  left: 0;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  background-color: #fff;
+  z-index: 2;
+}
+nav ul li > ul li {
+  list-style-type: none;
+  border: 1px solid var(--main-color);
+  padding: 6px 24px;
+  width: 20em;
+}
+nav ul li > ul li:hover {
+  background-color: var(--main-color);
+}
+nav ul li > ul li:hover a {
+  color: #fff;
+}
+nav ul li > ul li a {
+  color: var(--main-color);
+}
+
 nav ul li a {
   text-decoration: none;
   color: white;
@@ -160,6 +191,7 @@ nav ul li a:hover {
   flex-direction: column;
   align-items: center;
   padding: 1em 1.5em;
+  overflow: hidden;
 }
 .intro-container {
   width: 100%;
