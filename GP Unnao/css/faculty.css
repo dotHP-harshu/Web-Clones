@@ -1,0 +1,60 @@
+#faculty {
+  width: 100%;
+}
+.faculty-head {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3em 0;
+  background-color: #e5e2db;
+}
+.faculty-card-container {
+	overflow: hidden;
+  padding: 2em 3em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.faculty-card {
+  width: calc(100% - 3em);
+  background-color: #f1f0f0;
+  height: 15em;
+  border: 2px solid #ddcfcf;
+  display: flex;
+  margin: 0.5em 0;
+  overflow: hidden;
+}
+.faculty-card-img {
+  width: 25%;
+  height: 100%;
+  border-right: 2px solid #ddcfcf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.faculty-card-img img {
+  height: 80%;
+  width: auto;
+}
+.faculty-card-content {
+  width: calc(75% - 2em);
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em 2em;
+}
+.faculty-card-content h3 {
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.faculty-card-content h6 {
+  font: 17px main-font;
+  font-weight: bold;
+}
+.faculty-card-content p {
+  margin-left: 2em;
+  font: 16px main-font;
+}

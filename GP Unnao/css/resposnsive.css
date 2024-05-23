@@ -31,9 +31,13 @@ nav{
 }
 nav ul{
 	width: 100%;
-	padding: 0 2em;
 	align-items: normal;
 	flex-direction: column;
+}
+nav ul li {
+	width: 100%;
+	padding: 0 2em;
+	border-bottom: 1px solid rgba(255,255,255,.05);
 }
 #intro{
 	height: 100%;
@@ -65,4 +69,33 @@ nav ul{
 }
 .branch-card{
 	width: 100%;
+}
+.map-container{
+	height: ;
+}
+footer{
+	padding: 0.5em;
+}
+.faculty-card{
+	flex-direction: column;
+	height: auto;
+}
+.faculty-card-img{
+	width: 100%;
+	height: 15em;
+}
+.faculty-card-content{
+	width: 100%;
+}
+#about{
+	height: auto;
+
+}
+.about-container{
+	flex-direction: column;
+	height: 90em !important;
+}
+.about-img, .about-para{
+	height: auto;
+	width: 100% !important;
 }

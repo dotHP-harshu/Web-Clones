@@ -22,9 +22,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- AOS links -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body>
+    <!-- --------------------------------------- Header start ------------------------------------------------------- -->
+
     <header>
       <div class="info">
         <div class="info-add">
@@ -46,9 +51,9 @@
 
       <nav>
         <ul>
-          <li><a href="##">Home</a></li>
-          <li><a href="##">Faculty</a></li>
-          <li><a href="##">About</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="faculty.html">Faculty</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="##">Grivence</a></li>
           <li><a href="##">Admission Procedure & Fee Structure</a></li>
           <li><a href="##">Gallery</a></li>
@@ -65,17 +70,20 @@
         </ul>
       </nav>
     </header>
-    <!-- --------------------------------------------------------------------------------------------------------------------- -->
-    <main>
+    <!-- ------------------ Header end --------------------------------- -->
+    <!------------------ Main start -------------------------------------- -->
+    <main id="main">
       <i class="fa-solid fa-angle-left"></i>
       <i class="fa-solid fa-angle-right"></i>
     </main>
 
-    <!-- --------------------------------------------------------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------ Main end --------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------ Member Section Starts --------------------------------------------------------------------- -->
     <section id="member">
       <h1 class="main-headings">Department of Technical Education U.P.</h1>
       <div class="member-card-container">
-        <div class="member-card">
+        <div class="member-card" data-aos="fade-up">
+          <!-- -----Member Card -------- -->
           <div class="member-card-img">
             <img src="assets/images/admin-1.jpg" alt="" />
           </div>
@@ -83,14 +91,16 @@
           <p>Principal , Government Polytechnic Unnao</p>
         </div>
 
-        <div class="member-card">
+        <div class="member-card" data-aos="fade-up">
+          <!-- -----Member Card -------- -->
           <div class="member-card-img">
             <img src="assets/images/admin-2.png" alt="" />
           </div>
           <h4 class="main-headings">Shri A. Deshkumar IAS</h4>
           <p>Special Secretary, Technical Education Uttar Pradesh</p>
         </div>
-        <div class="member-card">
+        <div class="member-card" data-aos="fade-up">
+          <!-- -----Member Card -------- -->
           <div class="member-card-img">
             <img src="assets/images/admin-3.webp" alt="" />
           </div>
@@ -100,15 +110,16 @@
       </div>
     </section>
 
-    <!-- --------------------------------------------------------------------------------------------------------------------- -->
+    <!-------------------------------------------- Member Section ends--------------------------------------------------------------------------- -->
+    <!-------------------------------------------- Intro Section starts--------------------------------------------------------------------------- -->
     <section id="intro">
       <h1 class="main-headings">Welcome To Government Polytechnic Unnao</h1>
       <div class="intro-container">
-        <div class="intro-img">
+        <div class="intro-img" data-aos="fade-right">
           <img src="assets/images/bg-2.jpeg" alt="" />
         </div>
 
-        <div class="intro-para">
+        <div class="intro-para" data-aos="fade-left">
           <p>
             Government Polytechnic Unnao was established in the year of 1984. It
             is situated on National Highway – 25 at a distance of 5 km. from
@@ -134,8 +145,10 @@
         </div>
       </div>
     </section>
+    <!-- ----------------------------------------Intro Section ends ----------------------------------------- -->
+    <!-- ----------------------------------------Imp Section Starts ----------------------------------------- -->
     <article id="imp">
-      <div class="message">
+      <div class="message" data-aos="fade-up">
         <h5 class="imp-headings">Principal Message</h5>
         <div class="msg-container">
           <p>
@@ -156,7 +169,7 @@
         </div>
       </div>
 
-      <div class="notice">
+      <div class="notice" data-aos="fade-up">
         <h5 class="imp-headings">Notices</h5>
         <marquee direction="up" scrollamount="5" class="link-container">
           <ul>
@@ -171,11 +184,13 @@
         </marquee>
       </div>
     </article>
-    <!-- --------------------------------------------------------------------------------------------------------------------- -->
+    <!-- ----------------------------------------Imp Section ends ----------------------------------------- -->
+    <!-- -----------------------------------------Branch Section Starts--------------------------------------------------- -->
     <article id="branches">
       <h1 class="main-headings">Exploring Engineering Branches</h1>
       <div class="branch-card-container">
-        <div class="branch-card">
+        <!-- -------------- Branch Card ------------- -->
+        <div class="branch-card" data-aos="fade-down">
           <div class="card-img">
             <img src="assets/images/branch-6.webp" alt="" />
           </div>
@@ -192,7 +207,8 @@
           </div>
         </div>
 
-        <div class="branch-card">
+        <!-- -------------- Branch Card ------------- -->
+        <div class="branch-card" data-aos="fade-down">
           <div class="card-img">
             <img src="assets/images/branch-1.jpg" alt="" />
           </div>
@@ -208,7 +224,8 @@
           </div>
         </div>
 
-        <div class="branch-card">
+        <!-- -------------- Branch Card ------------- -->
+        <div class="branch-card" data-aos="fade-down">
           <div class="card-img">
             <img src="assets/images/branch-2.jpg" alt="" />
           </div>
@@ -224,7 +241,8 @@
           </div>
         </div>
 
-        <div class="branch-card">
+        <!-- -------------- Branch Card ------------- -->
+        <div class="branch-card" data-aos="fade-down">
           <div class="card-img">
             <img src="assets/images/branch-3.jpg" alt="" />
           </div>
@@ -242,7 +260,8 @@
           </div>
         </div>
 
-        <div class="branch-card">
+        <!-- -------------- Branch Card ------------- -->
+        <div class="branch-card" data-aos="fade-down">
           <div class="card-img">
             <img src="assets/images/branch-4.jpg" alt="" />
           </div>
@@ -261,7 +280,8 @@
           </div>
         </div>
 
-        <div class="branch-card">
+        <!-- -------------- Branch Card ------------- -->
+        <div class="branch-card" data-aos="fade-down">
           <div class="card-img">
             <img src="assets/images/branch-5.jpg" alt="" />
           </div>
@@ -279,7 +299,8 @@
         </div>
       </div>
     </article>
-    <!-- --------------------------------------------------------------------------------------------------------------------- -->
+    <!-- -------------------------------------------- Branch Section Ends------------------------------------- -->
+    <!-- -------------------------------------------- Contact Section Starts------------------------------------- -->
     <section id="contact">
       <h2 class="main-headings">Contacts</h2>
       <div class="map-container">
@@ -294,7 +315,8 @@
         ></iframe>
       </div>
     </section>
-    <!-- --------------------------------------------------------------------------------------------------------------------- -->
+    <!------------------------------------------ Contact Section Ends--------------------------------------- -->
+    <!------------------------------------------ Fotter Starts--------------------------------------- -->
     <footer>
       <p>
         Copyright &copy; 2023 - All Rights Reserved - Official Website of
@@ -302,7 +324,17 @@
         managed by Harsh Prajapati Designed & Developed By Harsh .
       </p>
     </footer>
+    <!------------------------------------------ Fotter Starts--------------------------------------- -->
 
+    <!-- ------------------------javaScript files------------------ -->
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 600,
+      });
+    </script>
+    <!-- ------------------------javaScript files------------------ -->
   </body>
 </html>
