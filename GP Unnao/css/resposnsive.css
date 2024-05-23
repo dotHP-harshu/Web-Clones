@@ -1,0 +1,68 @@
+header{
+	position: relative;
+}
+.info{
+	display: none;
+}
+.logo{
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 2em;
+}
+.logo a{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.logo i{
+	display: inline-block;
+}
+.logo a img{
+	width:100%;
+	height: auto;
+}
+nav{
+	display: none;
+	height: auto;
+}
+nav ul{
+	width: 100%;
+	padding: 0 2em;
+	align-items: normal;
+	flex-direction: column;
+}
+#intro{
+	height: 100%;
+}
+.member-card-container{
+	flex-direction: column;
+	height: auto;
+}
+.intro-container{
+	flex-direction: column;
+	height: 100%;
+}
+.intro-para,
+.intro-img{
+	height: auto;
+	width: 100%;
+}
+
+#imp{
+	flex-direction: column;
+	gap: 2em;
+}
+.message ,
+.notice{
+	width: 100%;
+}
+.branch-card-container{
+	flex-direction: column;
+}
+.branch-card{
+	width: 100%;
+}
