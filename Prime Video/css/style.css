@@ -62,7 +62,8 @@ nav span {
     color: #ffffffa4;
 }
 
-.menu>ul>li:hover {
+.menu>ul>li:hover,
+.menu>ul>li:focus {
     color: #fff;
 }
 
@@ -75,8 +76,8 @@ nav span {
 }
 
 .submenu>li:hover {
-    color: #000000;
     background-color: #fff;
+    color: black;
 }
 
 
@@ -246,11 +247,7 @@ footer div a {
 
 .link {
     text-decoration: none;
-    color: #ffffffa4;
-}
-
-.link:hover {
-    color: white;
+    color: inherit;
 }
 
 .blue-btn {
